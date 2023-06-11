@@ -1,11 +1,15 @@
 import './App.css';
-import React, { useState} from 'react';
-import Registration from './components/Registration'
+import Numone from './components/Numone'
+import DynamicTable from './components/DynamicTable';
 
-function App() {
+function App(){
+  
+
+
   return (
     <>
-    <Registration/>
+    <Numone/>
+    <DynamicTable/>
     </>
   );
 }
