@@ -48,3 +48,9 @@ textarea {
 .submit-btn:hover {
   background-color: #0056b3;
 }
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

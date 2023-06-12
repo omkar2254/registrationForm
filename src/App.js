@@ -1,6 +1,7 @@
 import './App.css';
 import Numone from './components/Numone'
-import DynamicTable from './components/DynamicTable';
+//import DynamicTable from './components/DynamicTable';
+import TableComponent from './components/DynamicTable';
 
 function App(){
   
@@ -8,8 +9,10 @@ function App(){
 
   return (
     <>
+    <h1>Registration Form</h1>
     <Numone/>
-    <DynamicTable/>
+    <h2 className="table">Dynamic Table</h2>
+    <TableComponent/>
     </>
   );
 }
